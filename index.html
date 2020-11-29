@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserve the Ocean</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="flex logobar">
+  <div><img src="images/logo.png" id="logo" alt="logo"></div>
+  <div id="cart" class="flex">
+      <img src="images/cart.png" id="cartpic" alt="">
+      <p id="cart-value">0</p>
+  </div>
+</nav>
+<nav class="bar">
+    <ul id="container">
+        <li><a href="./index.html" id="nav-bar-list">HOME</a></li>
+        <li><a href="./ourmission.html" id="nav-bar-list"> OUR MISSION</a></li>
+        <li><a href="./endangered.html" id="nav-bar-list">ENDANGERED SPECIES</a></li>
+        <li><a href="./issues.html" id="nav-bar-list">ISSUES</a></li>
+        <li><a href="./campaigns.html" id="nav-bar-list">CAMPAIGNS</a></li>
+        <li><a href="./merchandise.html" id="nav-bar-list">MERCHANDISE</a></li>
+        <li id="donate-button"><a href="#donate" id="nav-bar-list"><b>DONATE</b></a></li>
+    </ul>
+</nav>
+<div class="clear"></div>
+
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img class="slides-image" src="images/turtle.jpg" style="width:100%">
+      <div class="caption">Turtles</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img class="slides-image" src="images/plasticreef.jpg" style="width:100%">
+      <div class="caption">Plastic on the Coral Reefs</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img class="slides-image" src="images/plasticcoast.jpg" style="width:100%">
+      <div class="caption">Plastic on the Shoreline</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img class="slides-image" src="images/oilspills.jpg" style="width:100%">
+      <div class="caption">Oil Spill</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img class="slides-image" src="images/dyingreefs.jpeg" style="width:100%">
+        <div class="caption">Dying Reefs</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img class="slides-image" src="images/fishing.jpg" style="width:100%">
+        <div class="caption">Overexploitation of Fishing Resource</div>
+    </div>
+        <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div id="slides" style="text-align:center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+<div class="after-container">
+  <div class="flex-container movies wrap-reverse">
+    <div class="movie-text flex-column">
+      <h1>Issues</h1>
+      <p>
+        Check out the Issues!
+      </p>
+      <div>
+        <a href="./issues.html">
+          <pp id="play" class="playbutton">Let's Go</pp>
+        </a>
+      </div>
+    </div>
+    <div class="movie-image flex-column">
+      <img src="https://www.futureocean.org/ozeanwissen/_img/topic_plastic/infografiken-v2/mismanaged-waste-en.png" alt="" class="hoverimage" />
+    </div>
+  </div>
+  <div class="after-container">
+    <div class="flex-container movies wrap-reverse">
+      <div class="movie-text flex-column">
+        <h1>Endangered Species</h1>
+        <p>
+          Check out the Endangered Species!
+        </p>
+        <div>
+          <a href="./endangered.html">
+            <pp id="play" class="playbutton">Let's Go</pp>
+          </a>
+        </div>
+      </div>
+      <div class="movie-image flex-column">
+        <img src="https://www.fws.gov/southeast/images/hero/manatee-cow-and-calf.jpg" alt="" class="hoverimage" />
+      </div>
+    </div>
+<footer class="footer">
+  <div><img src="images/logo.png" id="logofooter" alt="logo"></div>
+  <div id="mini-navbar">
+    <div id="mini">
+      <label for="title" id="subscribe-title"><b>Link</b>
+      <div id="list">
+      <li><a href="./index.html" class="linksbottom">Home</a></li>
+      <li><a href="./ourmission.html" class="linksbottom">Mission</a></li>
+      <li><a href="./issues.html" class="linksbottom">Issues</a></li>
+    </div>
+    </div>
+  </div>
+  <div id="mini-navbar">
+    <div id="mini">
+      <label for="title" id="subscribe-title"><b>Link</b>
+      <div id="list">
+      <li><a href="./campaigns.html" class="linksbottom">Campaigns</a></li>
+      <li><a href="#donate" class="linksbottom" id="linksbottom">Donate</a></li>
+      <li><a href="./merchandise.html" class="linksbottom">Merchandise</a></li>
+    </div>
+    </div>
+  </div>
+  <div id="weeklyform">
+    <form action="mailto:anirudhganesan2005@gmail.com?Subject= Request Weekly Updates For Project SAVE" method="POST" enctype="text/plain">
+      <label for="title" id="subscribe-title">SUBSCRIBE FOR WEEKLY UPDATES FOR PROJECT SAVE!</label>
+      <br>
+      <br>
+      <input type="text" name="placeholder" id="placeholder" placeholder="Name">
+      <br>
+      <br>
+      <input type="text" name="placeholder" id="placeholder" placeholder="Your Email">  
+      <br>
+      <br>
+      <input type="submit" id="Subscribe" value="SUBSCRIBE">
+    </form>
+</div>
+</footer>
+  <div id="footer-nav">
+    <div id="copyright-section">
+    <h4 id="copyrighttext">© 2020 Project SAVE. All rights reserved.</h4>
+    </div>
+    <div id="designer-section"> 
+    <h4 id="designer">Design & Developed By Anirudh Ganesan</h4>
+    </div> 
+  </div>
+
+<script src="index.js"></script>
+</body>
+</html>
+
