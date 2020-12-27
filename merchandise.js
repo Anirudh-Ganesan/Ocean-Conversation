@@ -51,13 +51,13 @@ var items = [
     cents: 00,
 },
 {
-    name:"No More Plastic Full Sleeve",
+    name:"No More Plastic Sweatpants",
     quantity: 0,
     dollars: 12,
     cents: 99,
 },
 {
-    name:"Save Our Oceans Hat",
+    name:"Save the Sea Hat",
     quantity: 0,
     dollars: 9,
     cents: 99,

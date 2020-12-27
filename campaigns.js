@@ -162,7 +162,7 @@ cartButton.onclick = () => {
     window.open(whatsappLink,"_blank");
 }
 
-var countDownDate = new Date("Dec 5, 2020 10:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2021 12:00:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
